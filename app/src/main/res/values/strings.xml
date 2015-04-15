@@ -3,6 +3,6 @@
     <string name="action_settings">参数设置</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="title_activity_youku">YoukuActivity</string>
+
 </resources>
