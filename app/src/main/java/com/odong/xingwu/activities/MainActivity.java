@@ -1,9 +1,11 @@
-package com.odong.xingwu;
+package com.odong.xingwu.activities;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.odong.xingwu.R;
 
 
 public class MainActivity extends ActionBarActivity {

@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">Xing Wu</string>
+    <string name="app_name">北京兴武武术社</string>
+    <string name="action_settings">参数设置</string>
+    <string name="title_activity_settings">SettingsActivity</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="title_activity_youku">YoukuActivity</string>
 </resources>
