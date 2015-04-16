@@ -5,9 +5,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.LinearLayout;
 
 import com.odong.xingwu.R;
+import com.odong.xingwu.models.Video;
 import com.odong.xingwu.services.YoukuService;
+import com.odong.xingwu.utils.XmlHelper;
+import com.odong.xingwu.widgets.VideosView;
+
+import java.util.List;
+import java.util.Map;
 
 
 public class MainActivity extends Activity {
@@ -16,6 +23,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        initVideos();
         startService(new Intent(this, YoukuService.class));
     }
 
@@ -40,5 +49,17 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void initVideos() {
+        Map<String, List<Video>> videosMap = new XmlHelper(this).getVideos();
+        LinearLayout layout = (LinearLayout) findViewById(R.id.ll_main);
+        for (Map.Entry<String, List<Video>> entry : videosMap.entrySet()) {
+            VideosView vv = new VideosView(this);
+            vv.setTitle(entry.getKey());
+            vv.setVideos(entry.getValue());
+            layout.addView(vv);
+        }
+
     }
 }

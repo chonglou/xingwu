@@ -2,10 +2,11 @@
 <settings>
     <item
         key='author.wiki'
-        val='http://baike.baidu.com/view/4502418.htm'/>
-    <item key='author.logo'
-        val='http://f.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=34b1ab92b6fd5266b3263446ca71fc4e/f31fbe096b63f624de1a9e7a8744ebf81a4ca300.jpg'
-        />
-    <item key='author.family'
-        val='http://a.hiphotos.baidu.com/baike/c0%3Dbaike72%2C5%2C5%2C72%2C24/sign=6472ff6a97dda144ce0464e0d3debbc7/d31b0ef41bd5ad6eb5613f9381cb39dbb6fd3c2a.jpg'        />
+        val='http://baike.baidu.com/view/4502418.htm' />
+    <item
+        key='author.logo'
+        val='http://f.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=34b1ab92b6fd5266b3263446ca71fc4e/f31fbe096b63f624de1a9e7a8744ebf81a4ca300.jpg' />
+    <item
+        key='author.family'
+        val='http://a.hiphotos.baidu.com/baike/c0%3Dbaike72%2C5%2C5%2C72%2C24/sign=6472ff6a97dda144ce0464e0d3debbc7/d31b0ef41bd5ad6eb5613f9381cb39dbb6fd3c2a.jpg' />
 </settings>

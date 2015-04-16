@@ -8,7 +8,6 @@ import java.io.Serializable;
 public class Video implements Serializable {
 
     private String vid;
-    private String catalog;
     private String title;
 
     public String getVid() {
@@ -28,11 +27,4 @@ public class Video implements Serializable {
         this.title = title;
     }
 
-    public String getCatalog() {
-        return catalog;
-    }
-
-    public void setCatalog(String catalog) {
-        this.catalog = catalog;
-    }
 }
