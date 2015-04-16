@@ -1,12 +1,13 @@
 package com.odong.xingwu.activities;
 
 import android.app.Activity;
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.odong.xingwu.R;
+import com.odong.xingwu.services.YoukuService;
 
 
 public class MainActivity extends Activity {
@@ -15,6 +16,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        startService(new Intent(this, YoukuService.class));
     }
 
 

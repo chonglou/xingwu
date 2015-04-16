@@ -3,6 +3,9 @@
     <string name="action_settings">参数设置</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
+    <string name="videos_wuxingquan">五行拳</string>
+    <string name="videos_shierxing">十二形</string>
+    <string name="videos_taolu">套路</string>
     <string name="title_activity_youku">YoukuActivity</string>
 
 </resources>
